@@ -86,15 +86,33 @@
 
 
 
-<meta name="description" content="扫码查看此博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="黄书伟的个人博客">
-<meta property="og:url" content="http://huangsw.com/index.html">
+<meta name="description" content="之前写了一篇关于webpack 如何使用的文章：webpack 单页面应用实战，并且写了一个 单页面应用的小项目 放到了github上。正巧公司前段时间用webpack 做了一个项目，项目不大，是基于单页面应用的。但是上线后才发现了一些问题，原来还是有一些要优化改进的地方。
+webpack 单页面应用实战这篇文章基本已经满足了我们的需求。比如以下功能我们都已经实现：
+
+将css从js中分离出来
+使">
+<meta property="og:type" content="article">
+<meta property="og:title" content="webpack 使用优化（一）">
+<meta property="og:url" content="http://huangsw.com/2016/08/24/webpack-使用优化（一）/index.html">
 <meta property="og:site_name" content="黄书伟的个人博客">
-<meta property="og:description" content="扫码查看此博客">
+<meta property="og:description" content="之前写了一篇关于webpack 如何使用的文章：webpack 单页面应用实战，并且写了一个 单页面应用的小项目 放到了github上。正巧公司前段时间用webpack 做了一个项目，项目不大，是基于单页面应用的。但是上线后才发现了一些问题，原来还是有一些要优化改进的地方。
+webpack 单页面应用实战这篇文章基本已经满足了我们的需求。比如以下功能我们都已经实现：
+
+将css从js中分离出来
+使">
+<meta property="og:image" content="http://huangsw.com/uploads/2016-08-24/1.jpg">
+<meta property="og:image" content="http://huangsw.com/uploads/2016-08-24/2.jpg">
+<meta property="og:image" content="http://huangsw.com/uploads/2016-08-24/3.jpg">
+<meta property="og:image" content="http://huangsw.com/uploads/2016-08-24/m.png">
+<meta property="og:updated_time" content="2016-09-10T07:45:23.042Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="黄书伟的个人博客">
-<meta name="twitter:description" content="扫码查看此博客">
+<meta name="twitter:title" content="webpack 使用优化（一）">
+<meta name="twitter:description" content="之前写了一篇关于webpack 如何使用的文章：webpack 单页面应用实战，并且写了一个 单页面应用的小项目 放到了github上。正巧公司前段时间用webpack 做了一个项目，项目不大，是基于单页面应用的。但是上线后才发现了一些问题，原来还是有一些要优化改进的地方。
+webpack 单页面应用实战这篇文章基本已经满足了我们的需求。比如以下功能我们都已经实现：
+
+将css从js中分离出来
+使">
+<meta name="twitter:image" content="http://huangsw.com/uploads/2016-08-24/1.jpg">
 
 
 
@@ -115,9 +133,9 @@
 
 
 
-  <link rel="canonical" href="http://huangsw.com/"/>
+  <link rel="canonical" href="http://huangsw.com/2016/08/24/webpack-使用优化（一）/"/>
 
-  <title> 黄书伟的个人博客 </title>
+  <title> webpack 使用优化（一） | 黄书伟的个人博客 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -147,9 +165,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -236,9 +252,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -258,10 +274,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2016/08/24/webpack-使用优化（一）/" itemprop="url">
-                  webpack 使用优化（一）
-                </a>
+                webpack 使用优化（一）
               
             
           </h1>
@@ -336,8 +349,7 @@
       
 
       
-        
-          <p>之前写了一篇关于webpack 如何使用的文章：<a href="http://huangsw.com/2016/07/12/webpack%20%E5%8D%95%E9%A1%B5%E9%9D%A2%E5%BA%94%E7%94%A8%E5%AE%9E%E6%88%98/">webpack 单页面应用实战</a>，并且写了一个 <a href="https://github.com/huangshuwei/webpackForSPA">单页面应用的小项目</a> 放到了github上。正巧公司前段时间用webpack 做了一个项目，项目不大，是基于单页面应用的。但是上线后才发现了一些问题，原来还是有一些要优化改进的地方。</p>
+        <p>之前写了一篇关于webpack 如何使用的文章：<a href="http://huangsw.com/2016/07/12/webpack%20%E5%8D%95%E9%A1%B5%E9%9D%A2%E5%BA%94%E7%94%A8%E5%AE%9E%E6%88%98/">webpack 单页面应用实战</a>，并且写了一个 <a href="https://github.com/huangshuwei/webpackForSPA" target="_blank" rel="external">单页面应用的小项目</a> 放到了github上。正巧公司前段时间用webpack 做了一个项目，项目不大，是基于单页面应用的。但是上线后才发现了一些问题，原来还是有一些要优化改进的地方。</p>
 <p><a href="http://huangsw.com/2016/07/12/webpack%20%E5%8D%95%E9%A1%B5%E9%9D%A2%E5%BA%94%E7%94%A8%E5%AE%9E%E6%88%98/">webpack 单页面应用实战</a>这篇文章基本已经满足了我们的需求。比如以下功能我们都已经实现：</p>
 <ul>
 <li>将css从js中分离出来</li>
@@ -355,155 +367,38 @@
 <li>config 文件的合并</li>
 <li>清空发布目录</li>
 </ul>
-<p>看似不错，好像都已实现了，但是具体到生产环境时还是有问题的。下面有几处优化（下面还是结合<a href="https://github.com/huangshuwei/webpackForSPA">这个项目</a>）。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/08/24/webpack-使用优化（一）/" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/08/20/npm-你需要了解的知识点/" itemprop="url">
-                  npm 你需要了解的知识点
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-08-20T18:01:27+08:00" content="2016-08-20">
-              2016-08-20
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/npm/" itemprop="url" rel="index">
-                    <span itemprop="name">npm</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/08/20/npm-你需要了解的知识点/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/08/20/npm-你需要了解的知识点/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/2016/08/20/npm-你需要了解的知识点/" class="leancloud_visitors" data-flag-title="npm 你需要了解的知识点">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>npm （node package manager）是javascript包管理器，它方便使用javascript的开发者分享、重用、更新代码。截止 2016-8-20号 已经拥有超过了32万的资源包！在日常开发中我们最常用的就是使用npm 安装、卸载资源包，一旦npm 安装成功后一切就变得非常简单。下面介绍下有用但是不太常用的知识点(windows环境)。</p>
+<p>看似不错，好像都已实现了，但是具体到生产环境时还是有问题的。下面有几处优化（下面还是结合<a href="https://github.com/huangshuwei/webpackForSPA" target="_blank" rel="external">这个项目</a>）。</p>
+<a id="more"></a> 
+<h2 id="优化-公共js版本号会变化的问题"><a href="#优化-公共js版本号会变化的问题" class="headerlink" title="优化-公共js版本号会变化的问题"></a>优化-公共js版本号会变化的问题</h2><p>这个问题在项目上线之前我没有发现，上线以后，有一次需求变化，我在改变其他js文件的时候，然后打包发布发现公共js的版本号发生了改变，最后检查下来，的确是公共js的内容发生了变化，所以对应的版本号发生了变化。原因就是webpack默认会把最重要的东西放到公共js里，这里面包含webpack启动应用程序的依赖项、模块与模块的依赖关系、以及文件的版本号等信息。所以一旦任意的js文件发生改变都会体现在公共js上。比如我们通过webpack构建后生成这样的文件：<br><img src="/uploads/2016-08-24/1.jpg" alt="图片描述"></p>
+<p>再看下common.js 里大致包含什么内容（截取一小部分）：<br><img src="/uploads/2016-08-24/2.jpg" alt="图片描述"></p>
+<p>公共js版本号会变的问题在 github 上讨论了一段时间（<a href="https://github.com/webpack/webpack/issues/1315" target="_blank" rel="external">点击这里</a>），只不过之前没注意。有人用 <a href="https://www.npmjs.com/package/webpack-md5-hash" target="_blank" rel="external">webpack-md5-hash</a> 插件实现了，但是感觉比较麻烦，最终还是感觉webpack 的贡献者实现的<a href="https://github.com/webpack/webpack/tree/master/examples/chunkhash" target="_blank" rel="external">这种方式</a>很简单，并且不需要额外的插件，在新版本的webpack中融合的很好。但是提供的这个demo太简单，在项目中我们还是要注意一些问题的。比如使用‘热替换’时就会报错。所以我们要做一些改变，我们只需要将之前配置公共js的地方：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">// webpack.config.js</div><div class="line">...</div><div class="line">plugins:[</div><div class="line">    // 会把 ‘entry’ 定义的 common 对应的两个js 打包为 ‘common.js’</div><div class="line">    new webpack.optimize.CommonsChunkPlugin(&quot;common&quot;, &apos;js/[name].js&apos;, Infinity),</div><div class="line">]</div><div class="line">...</div></pre></td></tr></table></figure>
+<p><strong>改为：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">// webpack.config.js</div><div class="line">...</div><div class="line"> new webpack.optimize.CommonsChunkPlugin(</div><div class="line">        devServer ?</div><div class="line">        &#123;name: &quot;common&quot;, filename: &quot;js/common.js&quot;&#125;:</div><div class="line">        &#123;names: [&quot;common&quot;, &quot;webpackAssets&quot;]&#125;</div><div class="line">    ),</div><div class="line">...</div></pre></td></tr></table></figure>
 <blockquote>
-<p>官网：<a href="https://www.npmjs.com/">https://www.npmjs.com/</a></p>
+<p>注意： ‘devServer’ 是一个标识变量，代表‘热替换’ ，如有疑惑看上一篇<a href="http://huangsw.com/2016/07/12/webpack%20%E5%8D%95%E9%A1%B5%E9%9D%A2%E5%BA%94%E7%94%A8%E5%AE%9E%E6%88%98/">配置变量标识</a></p>
 </blockquote>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/08/20/npm-你需要了解的知识点/" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+<p>改成这种设置以后，当时热替换模式的时候不对common.js做处理，如果是开发模式或者发布模式，会从common.js中将各个文件的版本号以及其他重要信息抽出来，放到‘webpackAssets.js’文件中（名称可以自定义）。生成的文件如下，会多出一个文件，这个文件只有几kb：<br><img src="/uploads/2016-08-24/3.jpg" alt="图片描述"></p>
+<p>改成这种做法后，一旦其他的文件发生改变，都会在webpackAssets.js文件中得到体现，项目的发布升级，只要额外的将这个文件升级上去即可，而不用将公共js升级上去。这样的优化会非常有利于处理缓存的问题。</p>
+<h2 id="优化-设置模块目录"><a href="#优化-设置模块目录" class="headerlink" title="优化-设置模块目录"></a>优化-设置模块目录</h2><p>如果项目小不设置webpack请求的模块目录没关系，但是一般项目越来越大，webpack会查找很多无用的文件，这时候设置模块目录很有必要性，可以提高webpack编译的速度。即设置 resolve.root 属性。还有一个属性是 moduleDirectories，这两个的区别可以<a href="https://github.com/webpack/webpack/issues/472" target="_blank" rel="external">点这里</a>。resolve.root 接收的参数是 node_modules 文件加的绝对路径。我们在之前的webpack.config.js 中增加这个配置项：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">// webpack.config.js</div><div class="line">...</div><div class="line">resolve：&#123;</div><div class="line">    root: [</div><div class="line">        path.resolve(&apos;./node_modules&apos;)</div><div class="line">    ],</div><div class="line">    ...</div><div class="line">&#125;</div><div class="line">...</div></pre></td></tr></table></figure></p>
+<p>这样设置后，webpack编译速度会大大加快，不会每个文件夹都搜索一遍。</p>
+<hr>
+<p>扫码可在移动端查看这篇文章：<br><img src="/uploads/2016-08-24/m.png" alt="图片描述"></p>
+
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
@@ -511,281 +406,51 @@
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/08/20/npm-你需要了解的知识点/" rel="next" title="npm 你需要了解的知识点">
+                <i class="fa fa-chevron-left"></i> npm 你需要了解的知识点
+              </a>
             
-              
-                
-                <a class="post-title-link" href="/2016/07/12/webpack 单页面应用实战/" itemprop="url">
-                  webpack 单页面应用实战
-                </a>
-              
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-07-12T17:26:57+08:00" content="2016-07-12">
-              2016-07-12
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/webpack/" itemprop="url" rel="index">
-                    <span itemprop="name">webpack</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/07/12/webpack 单页面应用实战/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/07/12/webpack 单页面应用实战/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/2016/07/12/webpack 单页面应用实战/" class="leancloud_visitors" data-flag-title="webpack 单页面应用实战">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
-          
+          </div>
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          <p>这篇文章将介绍如何利用 webpack 进行单页面应用的开发，算是我在实际开发中的一些心得和体会,在这里给大家做一个分享。webpack 的介绍这里就不多说了，可以直接去<a href="http://webpack.github.io/docs/">官网</a>查看。 关于 <a href="https://github.com/huangshuwei/webpackForSPA">这个单页面应用</a> 大家可以直接去我的github上查看，我将结合这个项目去介绍。如果大家觉得这篇文章有不妥的地方，还请指出。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/07/12/webpack 单页面应用实战/" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
+
+    <div class="post-spread">
       
+        <div class="ds-share flat" data-thread-key="2016/08/24/webpack-使用优化（一）/"
+     data-title="webpack 使用优化（一）"
+     data-content=""
+     data-url="http://huangsw.com/2016/08/24/webpack-使用优化（一）/">
+  <div class="ds-share-inline">
+    <ul  class="ds-share-icons-16">
 
-  
-  
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
 
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/07/12/hello-everyone/" itemprop="url">
-                  hello everyone
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-07-12T17:20:08+08:00" content="2016-07-12">
-              2016-07-12
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/其他/" itemprop="url" rel="index">
-                    <span itemprop="name">其他</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/07/12/hello-everyone/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/07/12/hello-everyone/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/2016/07/12/hello-everyone/" class="leancloud_visitors" data-flag-title="hello everyone">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>大家好，欢迎来到我的博客网站。我是一名web开发者，在这里我将会写一些与 web技术 有关的文章，欢迎大家随时光顾…</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/07/12/hello-everyone/" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
+    </ul>
+    <div class="ds-share-icons-more">
+    </div>
+  </div>
+</div>
       
     </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
@@ -795,6 +460,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/08/24/webpack-使用优化（一）/"
+           data-title="webpack 使用优化（一）" data-url="http://huangsw.com/2016/08/24/webpack-使用优化（一）/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -814,8 +487,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/uploads/avatar.png"
@@ -894,6 +576,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#优化-公共js版本号会变化的问题"><span class="nav-number">1.</span> <span class="nav-text">优化-公共js版本号会变化的问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#优化-设置模块目录"><span class="nav-number">2.</span> <span class="nav-text">优化-设置模块目录</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -997,6 +690,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
