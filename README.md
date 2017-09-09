@@ -1,4 +1,6 @@
-##[黄书伟的博客](http://huangsw.com/)
+## [黄书伟的博客](http://huangsw.com/)
+
+## 此博客不在使用，迁移至：https://github.com/huangshuwei/blog
 
 ## webpack
 
