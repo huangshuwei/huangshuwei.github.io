@@ -1,12 +1,17 @@
 {
-  "editTable.js": "js/editTable.2b00fb34.js",
+  "childRouterTpl.js": "js/childRouterTpl.c4fb2c08.js",
+  "editTable.js": "js/editTable.58ce92aa.js",
   "font\\element-icons.ttf?t=1508751886602": "font/element-icons-27c72091.ttf",
   "font\\element-icons.woff?t=1508751886602": "font/element-icons-9b70ee41.woff",
   "font\\fontello.eot?58619503": "font/fontello-f6ce9b65.eot",
   "font\\fontello.ttf?58619503": "font/fontello-2f0ae4ba.ttf",
-  "index.css": "css/index-747b78ff.css",
-  "index.js": "js/index.bdf8b081.js",
+  "index.css": "css/index-fc3b927d.css",
+  "index.js": "js/index.790b9c1a.js",
   "intro.js": "js/intro.0b62de18.js",
   "manifest.js": "js/manifest.d41d8cd9.js",
+  "table1.js": "js/table1.8e2f887b.js",
+  "table2.js": "js/table2.aa7da289.js",
+  "test1.js": "js/test1.6bb03730.js",
+  "test2.js": "js/test2.2acf165e.js",
   "vendors.js": "js/vendors.60d64367.js"
 }
