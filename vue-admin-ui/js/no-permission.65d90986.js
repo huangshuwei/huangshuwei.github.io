@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["no-permission"],{"259d":function(n,e,t){"use strict";t.r(e);var i=function(){var n=this,e=n.$createElement,t=n._self._c||e;return t("div",[n._v("\n\t抱歉，您没有权限访问\n")])},o=[],s=t("2877"),l={},u=Object(s["a"])(l,i,o,!1,null,null,null);u.options.__file="401.vue";e["default"]=u.exports}}]);
+//# sourceMappingURL=no-permission.65d90986.js.map

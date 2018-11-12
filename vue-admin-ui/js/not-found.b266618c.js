@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["not-found"],{"54f4":function(n,e,t){"use strict";t.r(e);var o=function(){var n=this,e=n.$createElement,t=n._self._c||e;return t("div",[n._v("\n\t抱歉，没有找到您要的页面\n")])},u=[],l=t("2877"),i={},s=Object(l["a"])(i,o,u,!1,null,null,null);s.options.__file="404.vue";e["default"]=s.exports}}]);
+//# sourceMappingURL=not-found.b266618c.js.map
