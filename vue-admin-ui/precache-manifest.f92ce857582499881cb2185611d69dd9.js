@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "3c41e09a005eb415d94f",
-    "url": "js/login.240c0f7b.js"
+    "revision": "ea71211afe9120c7f2f2",
+    "url": "js/login.d56d9af3.js"
   },
   {
-    "revision": "31a82613316b02c913b2e5294608eff0",
+    "revision": "0d54876db65154dcbd67c37b74d6014d",
     "url": "login.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "js/module.391937d3.js"
   },
   {
-    "revision": "39a9a5367a1e5d4d7c9b",
-    "url": "js/chunk-common.a98e15fe.js"
+    "revision": "b1a417c8534369eb29f5",
+    "url": "js/chunk-common.a187c807.js"
   },
   {
     "revision": "150507c636b98c86822b",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "js/role.79340425.js"
   },
   {
-    "revision": "eaa74d15e72c325294de",
-    "url": "js/index.55408652.js"
+    "revision": "3f2499b676af577a0952",
+    "url": "js/index.7d0b386f.js"
   },
   {
     "revision": "d17c1a21e9fc911df1f2",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "js/addUser.eb63305e.js"
   },
   {
-    "revision": "0a30a91e7281700f479711c75deedcb9",
+    "revision": "bf779e704a2e7e80e558c17dc0aa05e0",
     "url": "index.html"
   },
   {
@@ -84,15 +84,15 @@ self.__precacheManifest = [
     "url": "css/position.54e64858.css"
   },
   {
-    "revision": "3c41e09a005eb415d94f",
-    "url": "css/login.ab19250d.css"
+    "revision": "ea71211afe9120c7f2f2",
+    "url": "css/login.021fbcfd.css"
   },
   {
     "revision": "fd872ffaaffb25e84add",
     "url": "css/left-menu-layout.7cc5dfcd.css"
   },
   {
-    "revision": "eaa74d15e72c325294de",
+    "revision": "3f2499b676af577a0952",
     "url": "css/index.fc824684.css"
   },
   {
@@ -100,7 +100,7 @@ self.__precacheManifest = [
     "url": "css/chunk-vendors.4e0f42e5.css"
   },
   {
-    "revision": "39a9a5367a1e5d4d7c9b",
+    "revision": "b1a417c8534369eb29f5",
     "url": "css/chunk-common.f1b6685d.css"
   }
 ];
